@@ -7,7 +7,19 @@ In this section, you will research various classical cryptography topics. Each t
 ### 1. The Shift Cipher
 
 1. What is the shift cipher and how does it work?
+  Shift cipher is a symmetric encryption method that is based on character substitution.
+  In this method, each letter of the original message is moved a fixed number of positions in the alphabet. For example, if the fixed number is 3, the letter A becomes D,    B becomes E, and so on, also known as the Caesar cipher.
+
 2. How can you encrypt and decrypt messages using the shift cipher?
+   To encrypt and decrypt messages using shift cipher, you need to follow the following steps:
+  Select a fixed number of positions you want to move each letter of the original message in the alphabet. This number is known as the **encryption key**.
+  Type the original message you want to encrypt.
+  For each letter in the original message, it moves the letter a fixed number of positions in the alphabet. 
+  If the fixed number is 3, the letter A becomes D, B becomes E.
+  Another example if the fixed number is 6, the letter A becomes G, B becomes H, so on.
+  The encrypted message is the sequence of letters resulting from applying encryption in turn to each letter of the original message.
+  To decrypt the message, you simply apply shift cipher with the reverse key. For example, if the key is 3, you must move each letter 3 positions to the left.
+
 3. What are the limitations and vulnerabilities of the shift cipher?
 4. Can you provide an example of a real-world application of the shift cipher?
 5. How does the shift cipher relate to modular arithmetic?
